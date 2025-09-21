@@ -7,7 +7,8 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1572045930797-ef96a920d6d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZXJpYWwlMjBmb3Jlc3QlMjB0cmVlcyUyMGdyZWVufGVufDF8fHx8MTc1NzA1ODg4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/solar_system.jpg"
+          // src="https://images.unsplash.com/photo-1572045930797-ef96a920d6d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZXJpYWwlMjBmb3Jlc3QlMjB0cmVlcyUyMGdyZWVufGVufDF8fHx8MTc1NzA1ODg4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
           alt="녹색 숲 항공 촬영"
           className="w-full h-full object-cover"
         />
@@ -17,12 +18,11 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6 leading-tight">
-          삼양은 모두가 행복한<br />
-          미래를 그리고 있습니다.
+          한빛쏠라가 고객님의 전기 고민을 해결합니다<br />
         </h1>
         <p className="text-xl md:text-2xl mb-8 opacity-90">
-          지속 가능한 성장을 위한<br />
-          혁신적인 기술로 더 나은 내일을
+          깨끗하고 경제적인 태양광 에너지로<br />
+          지속 가능한 내일을 함께 만들어갑니다
         </p>
         
         {/* Scroll Indicator */}

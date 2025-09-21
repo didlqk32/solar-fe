@@ -1,13 +1,13 @@
 import React from 'react';
 
 export default function Footer() {
-  const footerLinks = {
-    company: ['회사소개', '경영진', '조직도', '연혁', '계열사'],
-    business: ['식품사업', '의약바이오', '패키징', '화학소재', '무역'],
-    sustainability: ['ESG경영', '지속가능보고서', '윤리경영', '사회공헌'],
-    ir: ['IR자료', '재무정보', '주주정보', '공시정보'],
-    careers: ['채용정보', '인재상', '복리후생', '교육제도']
-  };
+  // const footerLinks = {
+  //   company: ['회사소개', '경영진', '조직도', '연혁', '계열사'],
+  //   business: ['식품사업', '의약바이오', '패키징', '화학소재', '무역'],
+  //   sustainability: ['ESG경영', '지속가능보고서', '윤리경영', '사회공헌'],
+  //   ir: ['IR자료', '재무정보', '주주정보', '공시정보'],
+  //   careers: ['채용정보', '인재상', '복리후생', '교육제도']
+  // };
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          <div>
+          {/* <div>
             <h4 className="mb-4 text-lg">회사소개</h4>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
@@ -80,8 +80,8 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
+          </div> */}
+        </div> 
 
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-12 pt-8">
@@ -93,24 +93,6 @@ export default function Footer() {
             </div>
             <div className="text-gray-400 text-sm">
               Copyright © Samyang Corporation. All Rights Reserved.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Additional Info Sections */}
-      <div className="bg-gray-800 py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-lg mb-4">삼양그룹과 함께할</h3>
-              <p className="text-gray-300 mb-4">당신의 역량을 소중하게 여겨 글로벌 기업으로 성장하겠습니다.</p>
-              <a href="#" className="text-blue-400 hover:text-blue-300 text-sm">채용정보 →</a>
-            </div>
-            <div>
-              <h3 className="text-lg mb-4">삼양그룹의 투자정보를 확인해보세요</h3>
-              <p className="text-gray-300 mb-4">실시간 투자정보와 재무자료를 제공합니다.</p>
-              <a href="#" className="text-blue-400 hover:text-blue-300 text-sm">IR정보 →</a>
             </div>
           </div>
         </div>
