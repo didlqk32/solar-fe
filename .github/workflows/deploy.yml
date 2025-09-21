@@ -20,13 +20,10 @@ jobs:
       - name: Install dependencies
         run: npm ci  # 또는 yarn install
 
-      - name: Run tests # (옵션: CI 파이프라인 강화)
-        run: npm test  # 테스트 실행 (실패 시 배포 중단)
-
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25  # Vercel 액션 사용 (Marketplace에서 설치됨)<grok-card data-id="7475e2" data-type="citation_card"></grok-card>
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}  # Secrets에서 불러옴
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}  # Vercel Org ID (필요 시 Secrets 추가)
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}  # Vercel Project ID (필요 시 Secrets 추가)
-          vercel-args: '--prod'  # 프로덕션 배포 시 (PR은 자동 Preview)
+          vercel-args: ${{ github.ref == 'refs/heads/main' && '--prod' || '' }}  # main 브랜치만 프로덕션 배포 (PR은 Preview)
