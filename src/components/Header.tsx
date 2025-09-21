@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 export default function Header() {
   const menuItems = [
-    '회사소개', '사업영역', '지속가능경영'
+    '회사소개', '사업영역', '지속가능경영인'
   ];
 
   return (
