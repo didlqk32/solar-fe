@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm ci  # 또는 yarn install
 
-      - name: Run tests (옵션: CI 파이프라인 강화)
+      - name: Run tests # (옵션: CI 파이프라인 강화)
         run: npm test  # 테스트 실행 (실패 시 배포 중단)
 
       - name: Deploy to Vercel
