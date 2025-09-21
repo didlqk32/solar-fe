@@ -8,7 +8,7 @@ export default function NewsSection() {
   const news = [
     {
       id: 1,
-      title: '삼양그룹, 2024년 지속가능경영 보고서 발간',
+      title: '한빛쏠라, 2024년 지속가능경영 보고서 발간',
       description: '환경, 사회, 지배구조 전반에 걸친 ESG 경영 성과와 향후 계획을 담았습니다.',
       date: '2024.12.15',
       category: '보도자료',
@@ -32,10 +32,10 @@ export default function NewsSection() {
     },
     {
       id: 4,
-      title: '2025년 신입사원 공개채용 시작',
-      description: '우수한 인재와 함께 성장할 기회를 제공합니다.',
+      title: '2025년 태양광 시장 동향',
+      description: '2025년 태양광 시장 동향을 분석합니다.',
       date: '2024.12.01',
-      category: '채용공고',
+      category: '시장동향',
       image: 'https://images.unsplash.com/photo-1718512932005-197f55f2e186?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWNrYWdpbmclMjBtYXRlcmlhbHMlMjBmYWN0b3J5fGVufDF8fHx8MTc1NzA1ODg4N3ww&ixlib=rb-4.1.0&q=80&w=1080'
     }
   ];
@@ -77,7 +77,7 @@ export default function NewsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
             더 많은 소식 보기
           </Button>
         </div>

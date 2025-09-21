@@ -6,31 +6,31 @@ export default function ProductSection() {
   const products = [
     {
       id: 1,
-      title: '식품',
-      description: '맛있고 안전한 식품으로 행복한 식탁을 만들어갑니다.',
+      title: '태양광 시스템',
+      description: '태양광 발전 시스템으로 전기를 생산하고 절감합니다.',
       image: 'https://images.unsplash.com/photo-1628919311414-1ee37e9ed8ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb29kJTIwbm9vZGxlcyUyMGluc3RhbnR8ZW58MXx8fHwxNzU3MDU4ODg3fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      category: '식품'
+      category: '태양광 시스템'
     },
     {
       id: 2,
-      title: '의약바이오',
-      description: '생명과학 기술로 인류의 건강한 삶에 기여합니다.',
+      title: '태양광 발전 시스템',
+      description: '태양광 발전 시스템으로 전기를 생산하고 절감합니다.',
       image: 'https://images.unsplash.com/photo-1704895376570-10be37f41bdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaGFybWFjZXV0aWNhbCUyMG1lZGljaW5lJTIwYm90dGxlc3xlbnwxfHx8fDE3NTcwNTg4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      category: '의약바이오'
+      category: '태양광 발전 시스템'
     },
     {
       id: 3,
-      title: 'ESG',
-      description: '지속 가능한 경영으로 더 나은 미래를 만들어갑니다.',
+      title: '태양광 발전 시스템',
+      description: '태양광 발전 시스템으로 전기를 생산하고 절감합니다.',
       image: 'https://images.unsplash.com/photo-1572045930797-ef96a920d6d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZXJpYWwlMjBmb3Jlc3QlMjB0cmVlcyUyMGdyZWVufGVufDF8fHx8MTc1NzA1ODg4Nnww&ixlib=rb-4.1.0&q=80&w=1080',
-      category: 'ESG'
+      category: '태양광 발전 시스템'
     },
     {
       id: 4,
-      title: '패키징',
-      description: '혁신적인 포장 솔루션으로 가치를 더합니다.',
+      title: '태양광 발전 시스템',
+      description: '태양광 발전 시스템으로 전기를 생산하고 절감합니다.',
       image: 'https://images.unsplash.com/photo-1718512932005-197f55f2e186?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWNrYWdpbmclMjBtYXRlcmlhbHMlMjBmYWN0b3J5fGVufDF8fHx8MTc1NzA1ODg4N3ww&ixlib=rb-4.1.0&q=80&w=1080',
-      category: '패키징'
+      category: '태양광 발전 시스템'
     }
   ];
 
@@ -39,7 +39,7 @@ export default function ProductSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4 text-gray-900">
-            삼양은 언제나<br />
+            한빛쏠라는 언제나<br />
             당신의 곁에 있습니다.
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -75,7 +75,7 @@ export default function ProductSection() {
         {/* Stats Section */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
-            <div className="text-4xl text-blue-600 mb-2">1958</div>
+            <div className="text-4xl text-blue-600 mb-2">2000</div>
             <p className="text-gray-600">창립년도</p>
           </div>
           <div>

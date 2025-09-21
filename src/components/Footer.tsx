@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function Footer() {
   // const footerLinks = {
@@ -16,16 +15,18 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="mb-6">
-              <span className="text-2xl text-blue-400">samyang</span>
+              <span className="text-2xl text-blue-400">한빛쏠라</span>
             </div>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              삼양그룹은 혁신과 함께하며<br />
-              더 나은 내일을 만들어갑니다.
-            </p>
-            <div className="space-y-2 text-sm text-gray-400">
-              <p>서울특별시 영등포구 국제금융로2길 32</p>
-              <p>대표전화: 02-2157-9000</p>
-              <p>팩스: 02-2157-9001</p>
+            <div className="flex flex-col md:flex-row md:justify-between">
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                한빛쏠라는 혁신과 함께하며
+                <br />더 나은 내일을 만들어갑니다.
+              </p>
+              <div className="space-y-2 text-sm text-gray-400">
+                <p>경기도하남시 AAA로 123</p>
+                <p>대표전화: 031-123-4567</p>
+                <p>팩스: 031-123-4567</p>
+              </div>
             </div>
           </div>
 
@@ -81,15 +82,21 @@ export default function Footer() {
               ))}
             </ul>
           </div> */}
-        </div> 
+        </div>
 
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row md:justify-between items-center">
             <div className="flex space-x-6 mb-4 md:mb-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm">개인정보처리방침</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm">이용약관</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm">사이트맵</a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm">
+                개인정보처리방침
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm">
+                이용약관
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm">
+                사이트맵
+              </a>
             </div>
             <div className="text-gray-400 text-sm">
               Copyright © Samyang Corporation. All Rights Reserved.
