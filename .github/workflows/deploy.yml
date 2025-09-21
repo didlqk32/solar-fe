@@ -24,7 +24,7 @@ jobs:
         run: npm test  # 테스트 실행 (실패 시 배포 중단)
 
       - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v26  # Vercel 액션 사용 (Marketplace에서 설치됨)<grok-card data-id="7475e2" data-type="citation_card"></grok-card>
+        uses: amondnet/vercel-action@v25  # Vercel 액션 사용 (Marketplace에서 설치됨)<grok-card data-id="7475e2" data-type="citation_card"></grok-card>
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}  # Secrets에서 불러옴
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}  # Vercel Org ID (필요 시 Secrets 추가)
